@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+    <link href="/style.css" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="container">
+
+      <center>  <h1>Currency Converter</h1> </center>
+
+        <div class="converters">
+            <div class="From">
+                <form >
+                    <div class="amount">
+                        <h2>From</h2>
+                        <p>Enter Amount</p>
+                        <input type="text" value="1" id="input1">
+                    </div>
+                    <div class="flag-select">
+                        <img src="https://flagsapi.com/US/flat/64.png" id="from-img">
+                    <div class="dropdown">
+                        <select name="From" id="select1" >
+                            <option value="USD">USD</option>
+                        </select>
+                    </div>
+                    </div>
+                </form>
+            </div>   
+    
+            <i class="fa-solid fa-arrow-right arrow"></i>
+
+            <div class="to">
+                <form >
+                    <h2>To</h2>
+                    <div class="amount">
+                        <p>Enter Amount</p>
+                        <input type="text" value="1" id="input2">
+                    </div>
+                    <div class="flag-select">
+                        <img src="https://flagsapi.com/PK/flat/64.png" id="to-img">
+                    <div class="dropdown">
+                        <select name="to"  id="select2" >
+                            <option value="PKR">PAK</option>
+                        </select>
+                    </div>
+                    </div>
+                </form>
+            </div>   
+
+        </div>
+          <center> <button>Get Exchange Rate</button></center>
+    </div>     <!-- YE CONTAINER DIV END -->
+
+    <script src="/code.js"></script>
+</body>
+</html>
